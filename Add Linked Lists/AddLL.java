@@ -57,7 +57,6 @@ public class AddLL {
     }
 
     public MyNode addNums(int diff, ListNode l1, ListNode l2){
-        System.out.println(diff);
         if(l1 == null){
             return new MyNode();
         }
@@ -93,3 +92,17 @@ public class AddLL {
         }
     }
 }
+
+/*
+
+Add two linked list that represent a number.
+Eg.
+L1: 1->2->3
+L2: 4->6
+
+Then Number(L1) = 123
+Number(L2) = 46
+
+Sum = 123 + 46 = 169
+
+*/
